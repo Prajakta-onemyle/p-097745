@@ -1,6 +1,6 @@
 
 import React from "react";
-import CampaignActivity from "@/components/dashboard/CampaignActivity";
+import CampaignActivity from "@/components/campaignActivity/CampaignActivity";
 
 const Index: React.FC = () => {
   return <CampaignActivity />;
