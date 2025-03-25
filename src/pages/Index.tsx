@@ -1,8 +1,10 @@
+
 import React from "react";
-import Dashboard from "@/components/dashboard/Dashboard";
+import CampaignActivity from "@/components/dashboard/CampaignActivity";
 
 const Index: React.FC = () => {
-  return <Dashboard />;
+  return <CampaignActivity />;
 };
 
 export default Index;
+
