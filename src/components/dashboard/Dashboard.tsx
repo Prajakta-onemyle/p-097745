@@ -1,3 +1,4 @@
+
 import React from "react";
 import ReelsSection from "./ReelsSection";
 import ConversationSection from "./ConversationSection";
@@ -9,7 +10,7 @@ const Dashboard: React.FC = () => {
       <div className="bg-white relative flex gap-[40px_46px] p-5 rounded-[10px] max-w-[1300px] w-full overflow-x-auto">
         <ReelsSection />
 
-        <div className="z-0 flex min-w-60 gap-5 flex-wrap max-md:max-w-full">
+        <div className="z-0 flex min-w-60 flex-row gap-5 max-md:flex-wrap max-md:max-w-full">
           <ConversationSection />
           <PeopleSection />
         </div>

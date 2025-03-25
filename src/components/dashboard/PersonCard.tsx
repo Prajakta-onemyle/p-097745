@@ -1,3 +1,4 @@
+
 import React from "react";
 
 interface PersonCardProps {
@@ -8,7 +9,7 @@ interface PersonCardProps {
 
 const PersonCard: React.FC<PersonCardProps> = ({ avatar, name, role }) => {
   return (
-    <div className="bg-[rgba(244,246,248,1)] border flex w-full max-w-[177px] flex-col items-stretch justify-center pl-4 pr-3 py-4 rounded-lg border-[rgba(219,225,234,0.7)] border-solid">
+    <div className="bg-[rgba(244,246,248,1)] border flex w-[177px] flex-col items-stretch justify-center pl-4 pr-3 py-4 rounded-lg border-[rgba(219,225,234,0.7)] border-solid">
       <div className="flex w-full max-w-[149px] gap-[40px_61px] justify-between">
         <img
           src={avatar}

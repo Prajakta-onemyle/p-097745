@@ -1,3 +1,4 @@
+
 import React from "react";
 import PersonCard from "./PersonCard";
 
@@ -47,7 +48,7 @@ const PeopleSection: React.FC = () => {
 
   return (
     <div className="min-h-[724px] w-[177px]">
-      <div className="flex w-full max-w-[177px] items-center gap-[40px_63px] text-base text-[rgba(68,68,68,1)] font-bold leading-loose justify-between">
+      <div className="flex w-full items-center gap-[40px_63px] text-base text-[rgba(68,68,68,1)] font-bold leading-loose justify-between">
         <div className="self-stretch gap-2.5 my-auto py-1.5">People (6)</div>
         <img
           src="https://cdn.builder.io/api/v1/image/assets/e380b764df4f4501bf7b553657deaca9/f758ce141271cd1d6721395168bafa50d2b9a922?placeholderIfAbsent=true"
@@ -55,9 +56,9 @@ const PeopleSection: React.FC = () => {
           alt="People icon"
         />
       </div>
-      <div className="flex h-[676px] max-w-full w-[179px] flex-col overflow-hidden items-center mt-2.5 p-px">
+      <div className="flex h-[676px] w-[177px] flex-col overflow-hidden items-center mt-2.5 p-px">
         {people.map((person) => (
-          <div key={person.id} className={person.id > 1 ? "mt-3" : ""}>
+          <div key={person.id} className={person.id > 1 ? "mt-3 w-full" : "w-full"}>
             <PersonCard
               avatar={person.avatar}
               name={person.name}
